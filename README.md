@@ -19,6 +19,7 @@ Spring Boot
 `
 
 React
+
 В терминале каталог src/main/frontend/my-app
 
 `

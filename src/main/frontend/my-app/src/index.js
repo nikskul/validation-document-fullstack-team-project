@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import StudentComponent from './components/StudentComponent';
+import PersonalPageComponent from './components/PersonalPage/PersonalPageComponent';
+import HeaderComponent from './components/HeaderComponent/HeaderComponent';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <StudentComponent />
+    <HeaderComponent/>
+    <PersonalPageComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );

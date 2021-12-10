@@ -19,11 +19,24 @@ body {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #482BFF;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 code {
@@ -36,4 +49,8 @@ img, .image {
   max-height: 100%;
   
   object-fit: cover;
+}
+
+#root {
+  padding: 40px 0 40px 140px;
 }

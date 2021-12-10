@@ -5,8 +5,9 @@ class PersonalPageComponent extends React.Component {
         return (
             <section className="PersonalPage">
                 <div className="StudentCard">
-                    <div className="StudentImage">
-                        <img />
+                    <h1>Студенческий билет</h1>
+                    <div className="StudentImage--container">
+                        <img className="image studentImage"/>
                     </div>
                     <div className="StudentInfo">
                         <h2></h2>

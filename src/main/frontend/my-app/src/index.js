@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PersonalPageComponent from './components/PersonalPage/PersonalPageComponent';
-import HeaderComponent from './components/HeaderComponent/HeaderComponent';
+import HeaderComponent from './components/Header/HeaderComponent';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 

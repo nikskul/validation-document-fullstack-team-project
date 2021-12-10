@@ -1,18 +1,14 @@
 import React from "react";
+import StudentCardComponent from "./StudentCard/StudentCardComponent";
+import DocumentComponent from "../Document/DocumentComponent";
+import "./PersonalPageComponent.css"
 
 class PersonalPageComponent extends React.Component {
     render() {
         return (
-            <section className="PersonalPage">
-                <div className="StudentCard">
-                    <h1>Студенческий билет</h1>
-                    <div className="StudentImage--container">
-                        <img className="image studentImage"/>
-                    </div>
-                    <div className="StudentInfo">
-                        <h2></h2>
-                    </div>
-                </div>
+            <section className="personalPage">
+                <StudentCardComponent/>
+                <DocumentComponent/>
             </section>
         )
     }

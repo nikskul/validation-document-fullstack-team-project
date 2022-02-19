@@ -1,5 +1,5 @@
 import React from "react";
-import StudentService from "../services/StudentService";
+import StudentService from "../../services/Student/StudentService";
 
 class StudentComponent extends React.Component {
 
